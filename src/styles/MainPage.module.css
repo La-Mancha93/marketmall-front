@@ -1,0 +1,81 @@
+.wrapper {
+    font-family: sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .topNav button {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid #888;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .banner img {
+    width: 100%;
+    display: block;
+  }
+  .categories {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background: #fafafa;
+  }
+  .categories button {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow .2s;
+  }
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .cardBody {
+    padding: 0.8rem;
+  }
+  .cardBody h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .cardBody p {
+    color: #555;
+  }
+  .loadMore {
+    text-align: center;
+    padding: 2rem;
+  }
+  .loadMore button {
+    padding: 0.8rem 1.5rem;
+    border: 1px solid #aaa;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
